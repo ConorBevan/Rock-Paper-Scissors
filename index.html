@@ -9,6 +9,14 @@
 </head>
 
 <body>
+
+<div class="page">
+    <form name="myForm" onsubmit="return validateForm()" method="post" required>
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
     <div class="container">
         <header>
             <h1>
@@ -31,6 +39,8 @@
         <img src="assets/images/Paper.icon.png" alt="" id="paper">
         <img src="assets/images/Scissors.icon.png" alt="" id="scissors">
     </div>
+
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>

@@ -6,6 +6,14 @@ var compscore = document.getElementById('computer-score');
 var result = document.getElementById('result')
 var comp = ['r', 'p', 's'];
 
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+
 rock.addEventListener('click', function () {
     gamePlay(rock)
 }
@@ -18,7 +26,6 @@ scissors.addEventListener('click', function () {
     gamePlay(scissors);
 }
 );
-
 
 function gamePlay(item) {
     var compChoose = comp[Math.floor(Math.random() * 3)];
