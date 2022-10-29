@@ -8,6 +8,7 @@ const resetBtn = document.getElementById("reset");
 const rulesBtn = document.getElementById("rules");
 var comp = ['r', 'p', 's'];
 
+/* These event listeners allow you to click the icons and get a response from the function gamePlay */
 rock.addEventListener('click', function () {
     gamePlay(rock)
 });
@@ -18,6 +19,7 @@ scissors.addEventListener('click', function () {
     gamePlay(scissors);
 });
 
+/* This loop displays their alert depending on outcome and adds a score of +1 to the scorebaord to the corresponding winner */
 function gamePlay(item) {
     var compChoose = comp[Math.floor(Math.random() * 3)];
     var userChoose = item.id;
@@ -56,13 +58,13 @@ function gamePlay(item) {
         }
     }
 };
-
+/* When you click reset button all scores values get set to 0 */
 resetBtn.addEventListener("click", () => {
     userscore.innerText = 0;
     compscore.innerText = 0;
-    result.innerHTML = "Start!";
 });
 
+/* when you click this button an alert is prompted to display game rules */
 rulesBtn.addEventListener("click", () => {
     alert('Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes. Good luck!')
 });
