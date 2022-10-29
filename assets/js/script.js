@@ -24,42 +24,33 @@ function gamePlay(item) {
 
     if (userChoose == 'rock') {
         if (compChoose == 's') {
-            result.textContent = 'You Won!'
             userscore.textContent = Number(userscore.textContent) + 1;
             alert('You won!');
         } else if (compChoose == 'p') {
-            result.textContent = 'Computer won!'
             compscore.textContent = Number(compscore.textContent) + 1;
             alert('You lost!');
         } else {
-            result.textContent = 'Draw!'
             alert('Its a draw, throw again!');
         }
     }
     if (userChoose == 'paper') {
         if (compChoose == 's') {
-            result.textContent = 'Computer Won!'
             compscore.textContent = Number(compscore.textContent) + 1;
             alert('You lost!');
         } else if (compChoose == 'p') {
-            result.textContent = 'Draw!'
             alert('Its a draw, throw again!');
         } else {
-            result.textContent = 'You won!'
             userscore.textContent = Number(userscore.textContent) + 1;
             alert('You won!');
         }
     }
     if (userChoose == 'scissors') {
         if (compChoose == 's') {
-            result.textContent = 'Draw!'
             alert('Its a draw, throw again!');
         } else if (compChoose == 'p') {
-            result.textContent = 'You won!'
             alert('You won!');
             userscore.textContent = Number(userscore.textContent) + 1;
         } else {
-            result.textContent = 'Computer won!'
             compscore.textContent = Number(compscore.textContent) + 1;
             alert('You lost!');
         }

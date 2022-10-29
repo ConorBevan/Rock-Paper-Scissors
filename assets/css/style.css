@@ -16,7 +16,7 @@ body {
 /* Title + Scorebaord */
 
 .container {
-    width: 600px;
+    width: 500px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -138,6 +138,7 @@ img:hover {
 
 #page-title {
     margin-bottom: 50px;
+    width: 100%;
 }
 
 #intro-login {
@@ -186,3 +187,4 @@ img:hover {
     cursor: pointer;
     outline: none;
 }
+
