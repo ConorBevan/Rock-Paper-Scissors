@@ -9,16 +9,13 @@ var comp = ['r', 'p', 's'];
 
 rock.addEventListener('click', function () {
     gamePlay(rock)
-}
-);
+});
 paper.addEventListener('click', function () {
     gamePlay(paper)
-}
-);
+});
 scissors.addEventListener('click', function () {
     gamePlay(scissors);
-}
-);
+});
 
 function gamePlay(item) {
     var compChoose = comp[Math.floor(Math.random() * 3)];
@@ -47,7 +44,7 @@ function gamePlay(item) {
         }
     }
     if (userChoose == 'scissors') {
-        if(compChoose == 's') {
+        if (compChoose == 's') {
             result.textContent = 'Draw!'
         } else if (compChoose == 'p') {
             result.textContent = 'User won!'
@@ -63,6 +60,4 @@ resetBtn.addEventListener("click", () => {
     userscore.innerText = 0;
     compscore.innerText = 0;
     result.innerHTML = "Start!";
-    }
-);
-
+});
