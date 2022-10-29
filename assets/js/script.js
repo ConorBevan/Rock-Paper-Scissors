@@ -1,3 +1,20 @@
+const loginForm = document.getElementById("login-form");
+const loginButton = document.getElementById("login-form-submit");
+const loginErrorMsg = document.getElementById("login-error-msg");
+
+loginButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    const username = loginForm.username.value;
+    const password = loginForm.password.value;
+
+    if (username === "" && password === "") {
+        alert("You have successfully logged in.");
+        window.location.href = ('../../game.html');
+    } else {
+        alert("Enter your name.")
+    }
+});
+
 var rock = document.getElementById('rock');
 var paper = document.getElementById('paper');
 var scissors = document.getElementById('scissors');
@@ -5,14 +22,6 @@ var userscore = document.getElementById('user-score');
 var compscore = document.getElementById('computer-score');
 var result = document.getElementById('result')
 var comp = ['r', 'p', 's'];
-
-function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
 
 rock.addEventListener('click', function () {
     gamePlay(rock)

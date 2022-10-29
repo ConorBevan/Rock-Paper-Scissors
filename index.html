@@ -9,36 +9,27 @@
 </head>
 
 <body>
-
-<div class="page">
-    <form name="myForm" onsubmit="return validateForm()" method="post" required>
-        Name: <input type="text" name="fname">
-        <input type="submit" value="Submit">
-      </form>
-</div>
-
-    <div class="container">
-        <header>
-            <h1>
-              <span>Rock</span>
-              <span>Paper</span>
-              <span>Scissors</span>
-              <span id="shoot">Shoot!</span>
-            </h1>
-
-            <div class="scoreboard">
-                <span id="user">User:</span><span id="user-score">0</span>
-                <span id="result">Start!</span>
-                <span id="computer">Computer:</span><span id="computer-score">0</span>
-            </div>
-        </header>
+    <div class="start-container">
+        <div id="home" class="flex-column flex-center">
+            <h1>Rock Paper Scissors Shoot!</h1>
+            <input type="text" name="name" id="username" placeholder="Enter name to play">
+            <a href="game.html">Play Game</a>
     </div>
 
-    <div class="game-container">
-        <img src="assets/images/Rock.icon.png" alt="" id="rock">
-        <img src="assets/images/Paper.icon.png" alt="" id="paper">
-        <img src="assets/images/Scissors.icon.png" alt="" id="scissors">
-    </div>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
 
     <script src="assets/js/script.js"></script>
 
