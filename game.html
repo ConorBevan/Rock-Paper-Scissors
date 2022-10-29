@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors Shoot!</title>
+</head>
+
+<body>
+
+<div class="page">
+    <form name="myForm" onsubmit="return validateForm()" method="post" required>
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+    <div class="container">
+        <header>
+            <h1>
+              <span>Rock</span>
+              <span>Paper</span>
+              <span>Scissors</span>
+              <span id="shoot">Shoot!</span>
+            </h1>
+
+            <div class="scoreboard">
+                <span id="user">User:</span><span id="user-score">0</span>
+                <span id="result">Start!</span>
+                <span id="computer">Computer:</span><span id="computer-score">0</span>
+            </div>
+        </header>
+    </div>
+
+    <div class="game-container">
+        <img src="assets/images/Rock.icon.png" alt="" id="rock">
+        <img src="assets/images/Paper.icon.png" alt="" id="paper">
+        <img src="assets/images/Scissors.icon.png" alt="" id="scissors">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
