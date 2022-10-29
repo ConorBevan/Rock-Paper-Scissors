@@ -5,6 +5,7 @@ var userscore = document.getElementById('user-score');
 var compscore = document.getElementById('computer-score');
 var result = document.getElementById('result')
 const resetBtn = document.getElementById("reset");
+const rulesBtn = document.getElementById("rules");
 var comp = ['r', 'p', 's'];
 
 rock.addEventListener('click', function () {
@@ -60,4 +61,8 @@ resetBtn.addEventListener("click", () => {
     userscore.innerText = 0;
     compscore.innerText = 0;
     result.innerHTML = "Start!";
+});
+
+rulesBtn.addEventListener("click", () => {
+    alert('Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes. Good luck!')
 });
