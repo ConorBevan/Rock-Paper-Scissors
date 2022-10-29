@@ -54,18 +54,21 @@ h1 {
     text-align: center;
     margin-left: 5px;
     margin-right: 10px;
+    font-size: 18px;
+}
+
+#user {
+    font-size: 18px;
 }
 
 #computer {
     margin-left: 10px;
+    font-size: 18px;
 }
 
 #computer-score {
     margin-left: 5px;
-}
-
-#result {
-    color: yellow;
+    font-size: 18px;
 }
 
 /* Rock-Paper-Scissors Icons */
@@ -162,7 +165,7 @@ img:hover {
 }
 
 .login-form-field::placeholder {
-    color: black;
+    color: rgb(131, 124, 124);
     display: grid;
     text-align: center;
 }
