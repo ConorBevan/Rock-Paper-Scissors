@@ -44,6 +44,30 @@ h1 {
     color: yellow;
 }
 
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+#user-score {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#computer {
+    margin-left: 10px;
+}
+
+#computer-score {
+    margin-left: 5px;
+}
+
+#result {
+    color: yellow;
+}
+
 /* Rock-Paper-Scissors Icons */
 
 .game-container {
@@ -69,7 +93,7 @@ img {
     cursor: pointer;
  }
 
- /* Test */
+ /* Login Section */
 
  #main-holder {
     width: 50%;

@@ -6,9 +6,8 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
 
     if (username === "") {
-        alert("Enter your name.")
+        alert("Enter a username.")
     } else {
-        alert("You have successfully logged in.");
         window.location.href = ('../../game.html');
     }
 });

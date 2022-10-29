@@ -4,6 +4,7 @@ var scissors = document.getElementById('scissors');
 var userscore = document.getElementById('user-score');
 var compscore = document.getElementById('computer-score');
 var result = document.getElementById('result')
+const resetBtn = document.getElementById("reset");
 var comp = ['r', 'p', 's'];
 
 rock.addEventListener('click', function () {
@@ -56,4 +57,12 @@ function gamePlay(item) {
             compscore.textContent = Number(compscore.textContent) + 1;
         }
     }
-}
+};
+
+resetBtn.addEventListener("click", () => {
+    userscore.innerText = 0;
+    compscore.innerText = 0;
+    result.innerHTML = "Start!";
+    }
+);
+
