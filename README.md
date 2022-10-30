@@ -1,6 +1,6 @@
 # Rock Paper Scissors Shoot!
 
-Rock Paper Scissors Shoot! is a site that was created to host a simple game of rock apaper scissors. The site main function to be used to have some fun and play the age old game against the computer.
+Rock Paper Scissors Shoot!, is a site that was created to host a simple game of rock apaper scissors. The site main function to be used to have some fun and play against the computer.
 
 ![Responsice Mockup](docs/)
 
@@ -26,31 +26,37 @@ Rock Paper Scissors Shoot! is a site that was created to host a simple game of r
 
 ## Existing Features
 
-- __Login page__
+- __Login Page__
 
   - A landing page with the title and a login form where the user must put in any username of their choice to be able to move onto the game. 
 
-![Login Page](docs/)
+![Login Page](docs/Screenshot1.png)
+
+- __Login Page Input__
+
+  - You must submit a username to be bale to play the game otherwise you'll be prompted with a message asking you to enter a username.  
+
+![Login Page Input](docs/Screenshot2.png)
 
 - __Main Screen__
 
-  - This is the main focus of the website. 
+  - This is the main page of the website. 
 
-![Main Screen](docs/)
+![Main Screen](docs/Screenshot3.png)
 
 - __The Header Section__ 
 
   - The scoreboard keeps track of score between you and the computer.
   - Also wheere the page title is held.
 
-![The Header Section](docs/)
+![The Header Section](docs/Screenshot4.png)
 
-- __RPS Icons__
+- __Rock, Paper, Scissors Icons__
 
-  - These are the icons you choose to play then game.
-  - When you click these buttons you get an alert where you gte tolf if you won/draw/lose
+  - These are the icons you use to interact and play the game.
+  - After you click these buttons you get an alert where you get told if you won/draw/lose.
 
-![RPS Icons](docs/)
+![RPS Icons](docs/Screenshot5.png)
 
 - __Buttons__
 
@@ -58,7 +64,7 @@ Rock Paper Scissors Shoot! is a site that was created to host a simple game of r
   1. Rules which promts an alert with the game rules 
   2. Reset button whioch resets the scores if you want to start again from 0-0.
 
-![Buttons](docs/)
+![Buttons](docs/Screenshot6.png) (docs/Screenshot7.png)
 
 ## Features Left to Implement
 
