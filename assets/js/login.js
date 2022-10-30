@@ -1,4 +1,4 @@
-/* Login Form */
+/* Login Form taken from https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1 */
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 
