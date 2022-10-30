@@ -45,11 +45,11 @@ h1 {
 }
 
 #shoot {
-    color: yellow;
+    color: rgb(255, 255, 20);
 }
 
 #shoot-intro {
-    color: yellow;
+    color: rgb(255, 255, 20);
     text-align: center;
     margin-top: 5px;
 }
@@ -157,7 +157,7 @@ img:hover {
 }
 
 #intro-login {
-    color: yellow;
+    color: rgb(255, 255, 20);
 }
 
 #main-holder {
@@ -199,7 +199,7 @@ img:hover {
     padding: 7px;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: #fff;
     font-weight: bold;
     background-color: #3a3a3a;
     cursor: pointer;
@@ -212,7 +212,12 @@ img:hover {
     img {
         height: 175px;
         width: 175px;
-        margin-bottom: 200px;
+
+    }
+
+    .game-container {
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -228,15 +233,20 @@ img:hover {
         width: 150px;
     }
 
+    .game-container {
+        width: 400px;
+        height: 300px;
+    }
+
     .reset-btn {
-        width: 150px;
+        width: 100px;
         height: 50px;
         margin-bottom: 50px;
         bottom: 10px;
     }
     
     .rules-btn {
-        width: 150px;
+        width: 100px;
         height: 50px;
         margin-bottom: 50px;
         bottom: 10px;
@@ -253,7 +263,8 @@ img:hover {
     }
 
     .game-container {
-        width: 500px;
+        width: 350px;
+        height: 250px;
     }
 
     img {
@@ -268,7 +279,8 @@ img:hover {
     }
 
     .game-container {
-        width: 400px;
+        width: 300px;
+        height: 200px;
     }
 
     img {
@@ -298,7 +310,7 @@ img:hover {
 
     .game-container {
         width: 300px;
-        height: 300px;
+        height: 200px;
     }
 
     img {
