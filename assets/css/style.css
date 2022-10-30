@@ -208,7 +208,7 @@ img:hover {
 
 /* Media Queries */
 
-@media  screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     img {
         height: 175px;
         width: 175px;
@@ -221,13 +221,13 @@ img:hover {
     }
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
     #page-title {
         font-size: 25px;
     }
 }
 
-@media  screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     img {
         height: 150px;
         width: 150px;
@@ -244,7 +244,7 @@ img:hover {
         margin-bottom: 50px;
         bottom: 10px;
     }
-    
+
     .rules-btn {
         width: 100px;
         height: 50px;
@@ -257,7 +257,7 @@ img:hover {
     }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         width: 400px;
     }
@@ -273,7 +273,7 @@ img:hover {
     }
 }
 
-@media  screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .container {
         width: 300px;
     }
@@ -291,19 +291,19 @@ img:hover {
     #game-title {
         font-size: 25px;
     }
-    
+
     .scoreboard {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     #score1 {
         margin-left: 63px;
     }
 }
 
-@media  screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .container {
         width: 250px;
     }
@@ -326,7 +326,7 @@ img:hover {
     .reset-btn {
         width: 100px;
     }
-    
+
     .rules-btn {
         width: 100px;
     }
