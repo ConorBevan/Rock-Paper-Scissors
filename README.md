@@ -61,10 +61,11 @@ Rock Paper Scissors Shoot!, is a site that was created to host a simple game of 
 - __Buttons__
 
   - There are two buttons in the bottom corners:
-  1. Rules which promts an alert with the game rules 
-  2. Reset button whioch resets the scores if you want to start again from 0-0.
+    1. Rules which promts an alert with the game rules 
+    2. Reset button whioch resets the scores if you want to start again from 0-0.
 
-![Buttons](docs/Screenshot6.png) (docs/Screenshot7.png)
+![Reset Button](docs/Screenshot6.png) ![Rules Button](docs/Screenshot7.png)
+
 
 ## Features Left to Implement
 
@@ -80,13 +81,13 @@ I didn't come across any issues.
 ## Validator Testing 
 
 - HTML
-  - No errors on any of my pages html when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
+  - No errors on any of my pages html when passing through the official [(W3C) validator](https://validator.w3.org/#validate_by_input)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 - Javascript
-  - No errors were found when passing through the official [(Jshint) validator]()
+  - No errors were found when passing through the official [(Jshint) validator](https://jshint.com/)
 
 - Lighthouse
   - here is my website score when passed through the official Lighthouse extension report. 
@@ -114,5 +115,5 @@ The live link can be found here -
 - To help with creating my login form https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
 
 ### For Content and design inspiration
-- For the font style I imported was from https://fonts.google.com/ 
+- The font style I imported was from https://fonts.google.com/ 
 - Game layout inspiration 
