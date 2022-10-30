@@ -109,6 +109,8 @@ img:hover {
 /* Buttons */
 
 .reset-btn {
+    width: 100px;
+    height: 50px;
     border: 2px solid #fff;
     border-radius: 10px;
     background-color: transparent;
@@ -125,6 +127,8 @@ img:hover {
 }
 
 .rules-btn {
+    width: 100px;
+    height: 50px;
     border: 2px solid #fff;
     border-radius: 10px;
     background-color: transparent;
