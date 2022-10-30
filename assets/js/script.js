@@ -58,6 +58,7 @@ function gamePlay(item) {
         }
     }
 };
+
 /* When you click reset button all scores values get set to 0 */
 resetBtn.addEventListener("click", () => {
     userscore.innerText = 0;

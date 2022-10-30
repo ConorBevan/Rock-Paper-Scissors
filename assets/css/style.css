@@ -40,6 +40,10 @@ h1 {
     font-size: 2rem;
 }
 
+#query-title {
+    display: none;
+}
+
 #shoot {
     color: yellow;
 }
@@ -143,6 +147,7 @@ img:hover {
 #page-title {
     margin-bottom: 50px;
     width: 100%;
+    font-size: 32px;
 }
 
 #intro-login {
@@ -178,10 +183,13 @@ img:hover {
     border-radius: 3px;
     outline: none;
     padding: 5px 0px 5px 5px;
+    width: 150px;
+    height: 40px;
 }
 
 #login-form-submit {
-    width: 100%;
+    width: 150px;
+    height: 40px;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -190,4 +198,133 @@ img:hover {
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
+}
+
+/* Media Queries */
+
+@media  screen and (max-width: 900px) {
+    #page-title {
+        margin-bottom: 50px;
+        width: 400px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 200px;
+    }
+}
+
+@media  screen and (max-width: 750px) {
+    #page-title {
+        width: 50%;
+        margin: 50px 60px;
+        font-size: 40px;
+    }
+
+    .login-form-field {
+        width: 200px;
+        height: 50px;
+    }
+
+    #login-form-submit {
+        width: 200px;
+        height: 50px;
+    }
+
+    .game-container {
+        height: 300px;
+        width: 600px;
+        margin: 95px auto;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .reset-btn {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 50px;
+        bottom: 10px;
+    }
+    
+    .rules-btn {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 50px;
+        bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .game-container {
+        margin-top: 40px
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    #game-title {
+        display: none;
+    }
+
+    #query-title {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .start-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 250px 100px;
+    }
+
+    #page-title {
+        width: 50%;
+        margin: 50px 70px;
+        font-size: 40px;
+    }
+
+    .game-container {
+        margin-bottom: 200px;
+    }
+
+    .reset-btn {
+        bottom: 150px;
+    }
+    
+    .rules-btn {
+        bottom: 150px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .start-container {
+        margin: 100px 100px
+    }
+
+    header {
+        margin-left: 50px;
+    }
 }
