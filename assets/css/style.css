@@ -216,10 +216,13 @@ img:hover {
 }
 
 @media  screen and (max-width: 750px) {
+    .start-container {
+        margin: 200px;
+    }
+
     #page-title {
-        width: 50%;
-        margin: 50px 60px;
-        font-size: 40px;
+        font-size: 30px;
+        margin-left: 25px;
     }
 
     .login-form-field {
@@ -240,6 +243,10 @@ img:hover {
 }
 
 @media  screen and (max-width: 600px) {
+    .start-container {
+        margin: 200px;
+    }
+
     img {
         height: 125px;
         width: 125px;
@@ -297,7 +304,7 @@ img:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 250px 100px;
+        margin: 200px 100px;
     }
 
     #page-title {
@@ -320,11 +327,45 @@ img:hover {
 }
 
 @media  screen and (max-width: 400px) {
+    #query-title {
+        font-size: 30px;
+    }
     .start-container {
-        margin: 100px 100px
+        margin: 200px 50px;
     }
 
     header {
         margin-left: 50px;
+    }
+
+    .reset-btn {
+        bottom: 50px;
+        font-size: 22px;
+    }
+    
+    .rules-btn {
+        bottom: 50px;
+        font-size: 22px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #user-score {
+        font-size: 25px;
+    }
+    
+    #user {
+        font-size: 25px;
+    }
+    
+    #computer {
+        font-size: 25px;
+    }
+    
+    #computer-score {
+        font-size: 25px;
     }
 }
