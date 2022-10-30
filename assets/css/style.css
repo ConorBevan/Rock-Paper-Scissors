@@ -64,21 +64,21 @@ h1 {
     text-align: center;
     margin-left: 5px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #user {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #computer {
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #computer-score {
     margin-left: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Rock-Paper-Scissors Icons */
@@ -329,5 +329,21 @@ img:hover {
 
     .rules-btn {
         width: 100px;
+    }
+
+    #user-score {
+        font-size: 18px;
+    }
+    
+    #user {
+        font-size: 18px;
+    }
+    
+    #computer {
+        font-size: 18px;
+    }
+    
+    #computer-score {
+        font-size: 18px;
     }
 }
