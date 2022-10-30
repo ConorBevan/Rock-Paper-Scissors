@@ -209,8 +209,8 @@ img:hover {
     }
 
     img {
-        height: 150px;
-        width: 150px;
+        height: 175px;
+        width: 175px;
         margin-bottom: 200px;
     }
 }
@@ -234,22 +234,16 @@ img:hover {
         width: 200px;
         height: 50px;
     }
-
-    .game-container {
-        height: 300px;
-        width: 600px;
-        margin: 95px auto;
-    }
 }
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 650px) {
     .start-container {
         margin: 200px;
     }
 
     img {
-        height: 125px;
-        width: 125px;
+        height: 150px;
+        width: 150px;
     }
 
     .reset-btn {
@@ -267,105 +261,79 @@ img:hover {
     }
 
     .container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        justify-content: center;
+        width: 450px;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .container {
+        width: 400px;
     }
 
     .game-container {
-        margin-top: 40px
-    }
-
-    header {
-        display: flex;
-        flex-direction: column;
-        border: none;
-        align-items: center;
-        justify-content: center;
         width: 500px;
-        margin: 50px auto;
     }
 
-    #game-title {
-        display: none;
-    }
-
-    #query-title {
-        display: block;
-        font-size: 20px;
-        margin-bottom: 20px;
+    img {
+        height: 125px;
+        width: 125px;
     }
 }
 
 @media  screen and (max-width: 500px) {
-    .start-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 200px 100px;
-    }
-
-    #page-title {
-        width: 50%;
-        margin: 50px 70px;
-        font-size: 40px;
+    .container {
+        width: 300px;
     }
 
     .game-container {
-        margin-bottom: 200px;
+        width: 400px;
     }
 
-    .reset-btn {
-        bottom: 150px;
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    #game-title {
+        font-size: 25px;
     }
     
-    .rules-btn {
-        bottom: 150px;
+    .scoreboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #score1 {
+        margin-left: 63px;
     }
 }
 
 @media  screen and (max-width: 400px) {
-    #query-title {
-        font-size: 30px;
-    }
-    .start-container {
-        margin: 200px 50px;
+    .container {
+        width: 250px;
     }
 
-    header {
-        margin-left: 50px;
-    }
-
-    .reset-btn {
-        bottom: 50px;
-        font-size: 22px;
-    }
-    
-    .rules-btn {
-        bottom: 50px;
-        font-size: 22px;
+    .game-container {
+        width: 300px;
+        height: 300px;
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        height: 100px;
+        width: 100px;
+        margin: 0 20px;
     }
 
-    #user-score {
-        font-size: 25px;
+    #game-title {
+        font-size: 20px;
+    }
+
+    .reset-btn {
+        width: 100px;
     }
     
-    #user {
-        font-size: 25px;
-    }
-    
-    #computer {
-        font-size: 25px;
-    }
-    
-    #computer-score {
-        font-size: 25px;
+    .rules-btn {
+        width: 100px;
     }
 }
