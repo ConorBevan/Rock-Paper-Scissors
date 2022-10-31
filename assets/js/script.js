@@ -85,6 +85,7 @@ function gamePlay(item) {
     endGame();
 }
 
+/* This function displays alert of winner and resets scoreboard back to zero */
 function endGame() {
     "use strict";
     if (userscore.innerText == 5) {
