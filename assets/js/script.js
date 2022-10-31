@@ -89,11 +89,11 @@ function gamePlay(item) {
 function endGame() {
     "use strict";
     if (userscore.innerText == 5) {
-        alert('Game Over! You won!');
+        alert('Game Over! You reached 5 points, you win!');
         userscore.innerText = 0;
         compscore.innerText = 0;
     } else if (compscore.innerText == 5) {
-        alert('Game Over! You lost!');
+        alert('Game Over! The computer reached 5 points, you lose!');
         compscore.innerText = 0;
         userscore.innerText = 0;
     }
