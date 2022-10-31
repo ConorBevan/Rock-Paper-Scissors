@@ -92,7 +92,7 @@ function endGame() {
         userscore.innerText = 0;
         compscore.innerText = 0;
     } else if (compscore.innerText == 5) {
-        alert('Game Over! You lost, the computer was the first to 5! Try again!');
+        alert('Game Over! You lost!');
         compscore.innerText = 0;
         userscore.innerText = 0;
     }
