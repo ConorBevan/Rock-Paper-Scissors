@@ -21,7 +21,7 @@ scissors.addEventListener('click', function () {
     gamePlay(scissors);
 });
 
-/* This loop displays their alert depending on outcome and adds a score of +1 to the scorebaord to the corresponding winner */
+/* This loop displays an alert depending on outcome and adds a score of +1 to the scorebaord to the corresponding winner */
 function gamePlay(item) {
     "use strict";
     var compChoose = comp[Math.floor(Math.random() * 3)];
