@@ -4,19 +4,19 @@ Rock Paper Scissors Shoot!, is a site that was created to host a simple game of 
 
 ![Responsice Mockup](docs/Screenshot8.png)
 
-### User Goals:
+#### User Goals:
 
 - Visually appealing.
 - Easy to navigate the app.
 - To present simple game of rock paper scissors.
 
-### User Stories:
+#### User Stories:
 
 - As a user I, want to play agame of RPS with no issues.
 - As a user I, want to be able to seamlessly navigate the site. 
 - As a user I, want to be able to view the webiste on any device and have user friendly navigation.
 
-### Site Owner Goals: 
+#### Site Owner Goals: 
 
 - Promoate a game of rock paper scissors.
 - Hopefully bring some enjoyment to the user. 
