@@ -15,14 +15,14 @@ body {
 
 /* Title + Scorebaord */
 
+#parent-container {
+    display: none;
+}
+
 .container {
     width: 500px;
     max-width: 100%;
     margin: 0 auto;
-}
-
-#parent-container{
-    display: none;
 }
 
 header {
@@ -220,7 +220,6 @@ img:hover {
     img {
         height: 175px;
         width: 175px;
-
     }
 
     .game-container {

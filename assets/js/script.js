@@ -1,4 +1,4 @@
-/* Login Form taken from https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1 */
+/* Login Form majority taken from https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1 */
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 
@@ -19,6 +19,7 @@ loginButton.addEventListener("click", (e) => {
     }
 });
 
+/* Start of Game Section */
 var rock = document.getElementById('rock');
 var paper = document.getElementById('paper');
 var scissors = document.getElementById('scissors');
@@ -81,6 +82,19 @@ function gamePlay(item) {
             alert('You lost!');
         }
     }
+    endGame();
+}
+
+function endGame() {
+    if (userscore.innerText == 5) {
+        alert('Game Over! You were the first to 5!');
+        userscore.innerText = 0;
+        compscore.innerText = 0;
+    } else if (compscore.innerText == 5) {
+        alert('Game Over! You lost, the computer was the first to 5! Try again!');
+        compscore.innerText = 0;
+        userscore.innerText = 0;
+    }
 }
 
 /* When you click reset button all scores values get set to 0 */
@@ -93,5 +107,5 @@ resetBtn.addEventListener("click", () => {
 /* When you click this button an alert is prompted to display game rules */
 rulesBtn.addEventListener("click", () => {
     "use strict";
-    alert('Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes. Good luck!');
+    alert('The winner of the game is the first to 5 points! Game rules: Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes. Good luck!');
 });
