@@ -100,9 +100,8 @@ The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scisso
 
 # Credits 
 
-#### - __For Code Feature Inspiration:__
+#### - __For Code Inspiration:__
 - To help with creating my login submission form https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
-- My mentyor Jubril Akolade helped explain to me how to keep all html and code in one file and display certain sections once called on in the corressponding javascript.
 
 #### - __For Content and Design Inspiration:__
 - The font style I imported was from https://fonts.google.com/ 
