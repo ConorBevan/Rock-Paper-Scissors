@@ -104,6 +104,7 @@ The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scisso
 
 #### - __For Code Inspiration:__
 - To help with creating my login submission form https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
+- This thread helped me get started in understanding how to create a loop for my game https://stackoverflow.com/questions/33513176/looping-a-rock-paper-scissors-game#:~:text=Later%20with%20experience%20and%20knowledge,%5Bchoice1%5D%20%3D%3D%20choice2)%20%3F
 
 #### - __For Content and Design Inspiration:__
 - The font style I imported was from https://fonts.google.com/ 
