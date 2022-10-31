@@ -2,7 +2,7 @@
 
 Rock Paper Scissors Shoot!, is a site that was created to host a simple game of rock apaper scissors. The site main function to be used to have some fun and test yourself against the computer. The winner is the first to 5 points.
 
-![Responsice Mockup](docs/)
+![Responsice Mockup](docs/Screenshot8.png)
 
 ### User Goals
 
@@ -91,7 +91,7 @@ I haven't come across any unfixed bugs to make note of.
 
 # Deployment 
 
-The live link can be found here -
+The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scissors/
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
 - In the GitHub repository, navigate to the Settings tab.

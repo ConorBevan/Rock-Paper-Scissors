@@ -317,9 +317,16 @@ img:hover {
     #computer-score {
         margin-left: 5px;
     }
+
+    #start-container {
+        margin-top: 150px;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    #start-container {
+        margin-top: 125px;
+    }
     .container {
         width: 250px;
     }
