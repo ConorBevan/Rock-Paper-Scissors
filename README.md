@@ -70,14 +70,14 @@ Rock Paper Scissors Shoot!, is a site that was created to host a simple game of 
 
 ## Features Left to Implement
 
-- Noise sound affetcs based on if you win/lose a hand.
+- Noise sound affects based on if you win/lose a hand.
 
 
 # Testing 
 
 I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images/icons look clean and sharp on all device sizes. Easy navigation. All links work on the site also. I didn't come across any issues with the site.
  
-### Validator Testing
+### - Validator Testing
 
 - __HTML -__ No errors on any of my pages html when passing through the official [(W3C) validator](https://validator.w3.org/#validate_by_input)
 
@@ -85,7 +85,7 @@ I feel that the site has hit the goals required by all parties. The site respond
 
 - __Javascript -__ No errors were found when passing through the official [(Jshint) validator](https://jshint.com/)
 
-### Unfixed Bugs
+### - Unfixed Bugs
 
 I haven't come across any unfixed bugs to make note of. 
 
@@ -101,7 +101,7 @@ The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scisso
 # Credits 
 
 ### For Code Feature Inspiration 
-- To help with creating my login form https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
+- To help with creating my login submission form https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
 - My mentyor Jubril Akolade helped explain to me how to keep all html and code in one file and display certain sections once called on in the corressponding javascript.
 
 ### For Content and design inspiration
