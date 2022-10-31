@@ -21,6 +21,10 @@ body {
     margin: 0 auto;
 }
 
+#parent-container{
+    display: none;
+}
+
 header {
     border: 3px solid #fff;
     display: flex;
@@ -146,7 +150,7 @@ img:hover {
 
 /* Login Section */
 
-.start-container {
+#start-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
