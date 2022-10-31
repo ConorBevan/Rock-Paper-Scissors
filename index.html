@@ -13,51 +13,51 @@
 
 <body>
 
-<!-- Scorebaord/Title Header-->
-<div id="parent-container">
-    <div class="container">
-        <header>
-            <h1 id="game-title">
-                <span>Rock</span>
-                <span>Paper</span>
-                <span>Scissors</span>
-                <span id="shoot">Shoot!</span>
-            </h1>
-
-            <h1 id="query-title"> Rock Paper Scissors Shoot!</h1>
-
-            <div class="scoreboard">
-                <div id="score1"><span id="user">You:</span><span id="user-score">0</span></div>
-                <div id="score2"><span id="computer">Computer:</span><span id="computer-score">0</span></div>
-            </div>
-        </header>
+    <!-- Login Section-->
+    <div id="start-container">
+        <div id="home" class="flex-column flex-center">
+            <h1 id="page-title">Rock Paper Scissors <span id="shoot-intro">Shoot!</span></h1>
+        </div>
+        <div id="main-holder">
+            <form id="login-form">
+                <input type="text" name="username" id="username-field" class="login-form-field"
+                    placeholder="Enter a username">
+                <input type="submit" value="Play Game" id="login-form-submit">
+            </form>
+        </div>
     </div>
 
-    <!-- Rock, Paper, Scissors Icons -->
-    <div class="game-container">
-        <img src="assets/images/Rock.icon.png" alt="rock" id="rock">
-        <img src="assets/images/Paper.icon.png" alt="paper" id="paper">
-        <img src="assets/images/Scissors.icon.png" alt="scissors" id="scissors">
-    </div>
+    <!-- Scorebaord/Title Header-->
+    <div id="parent-container">
+        <div class="container">
+            <header>
+                <h1 id="game-title">
+                    <span>Rock</span>
+                    <span>Paper</span>
+                    <span>Scissors</span>
+                    <span id="shoot">Shoot!</span>
+                </h1>
 
-    <!-- Buttons -->
-    <button id="reset" class="reset-btn">Reset</button>
-    <button id="rules" class="rules-btn">Rules</button>
-</div>
+                <h1 id="query-title"> Rock Paper Scissors Shoot!</h1>
 
-<!-- Login Section-->
-<div id="start-container">
-    <div id="home" class="flex-column flex-center">
-        <h1 id="page-title">Rock Paper Scissors <span id="shoot-intro">Shoot!</span></h1>
+                <div class="scoreboard">
+                    <div id="score1"><span id="user">You:</span><span id="user-score">0</span></div>
+                    <div id="score2"><span id="computer">Computer:</span><span id="computer-score">0</span></div>
+                </div>
+            </header>
+        </div>
+
+        <!-- Rock, Paper, Scissors Icons -->
+        <div class="game-container">
+            <img src="assets/images/Rock.icon.png" alt="rock" id="rock">
+            <img src="assets/images/Paper.icon.png" alt="paper" id="paper">
+            <img src="assets/images/Scissors.icon.png" alt="scissors" id="scissors">
+        </div>
+
+        <!-- Rules + Reset Score Buttons -->
+        <button id="reset" class="reset-btn">Reset</button>
+        <button id="rules" class="rules-btn">Rules</button>
     </div>
-    <div id="main-holder">
-        <form id="login-form">
-            <input type="text" name="username" id="username-field" class="login-form-field"
-                placeholder="Enter a username">
-            <input type="submit" value="Play Game" id="login-form-submit">
-        </form>
-    </div>
-</div>
 
     <script src="assets/js/script.js"></script>
 
