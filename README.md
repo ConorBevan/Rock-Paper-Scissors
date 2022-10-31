@@ -85,10 +85,6 @@ I feel that the site has hit the goals required by all parties. The site respond
 
 - __Javascript -__ No errors were found when passing through the official [(Jshint) validator](https://jshint.com/)
 
-- __Lighthouse -__ Here is my website score when passed through the official Lighthouse extension report. 
-
-  ![Lighthouse](docs/)
-
 ### Unfixed Bugs
 
 I haven't come across any unfixed bugs to make note of. 

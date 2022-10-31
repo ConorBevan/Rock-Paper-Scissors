@@ -308,6 +308,15 @@ img:hover {
     #score1 {
         margin-left: 63px;
     }
+
+    #computer {
+        margin-left: 5px;
+        
+    }
+    
+    #computer-score {
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -341,16 +350,63 @@ img:hover {
     #user-score {
         font-size: 18px;
     }
-    
+
     #user {
         font-size: 18px;
     }
-    
+
     #computer {
         font-size: 18px;
+        margin-left: 10px;
     }
-    
+
     #computer-score {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container {
+        width: 200px;
+    }
+
+    .game-container {
+        width: 250px;
+        height: 150px;
+    }
+
+    img {
+        height: 85px;
+        width: 85px;
+        margin: 0 10px;
+    }
+
+    #game-title {
+        font-size: 18px;
+    }
+
+    .reset-btn {
+        width: 90px;
+    }
+
+    .rules-btn {
+        width: 90px;
+    }
+
+    #user-score {
+        font-size: 13px;
+    }
+
+    #user {
+        font-size: 13px;
+        margin-left: -11px;
+    }
+
+    #computer {
+        font-size: 13px;
+    }
+
+    #computer-score {
+        font-size: 13px;
     }
 }
