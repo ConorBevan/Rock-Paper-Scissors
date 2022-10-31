@@ -89,6 +89,7 @@ I feel that the site has hit the goals required by all parties. The site respond
 
 I haven't come across any unfixed bugs to make note of. 
 
+
 # Deployment 
 
 The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scissors/
@@ -97,6 +98,7 @@ The live link can be found here - https://conorbevan.github.io/Rock-Paper-Scisso
 - In the GitHub repository, navigate to the Settings tab.
 - From the source section drop-down menu, select the main branch.
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+
 
 # Credits 
 

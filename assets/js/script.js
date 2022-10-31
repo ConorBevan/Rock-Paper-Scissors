@@ -2,7 +2,7 @@
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 
-const parentContainer =  document.getElementById("parent-container");
+const parentContainer = document.getElementById("parent-container");
 const startContainer = document.getElementById("start-container");
 
 /* When you click play game button it will not take you to the game unless you put in a value in the input */
