@@ -2,8 +2,8 @@
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 
-const parentContainer =  document.getElementById("parent-container")
-const startContainer = document.getElementById("start-container")
+const parentContainer =  document.getElementById("parent-container");
+const startContainer = document.getElementById("start-container");
 
 /* When you click play game button it will not take you to the game unless you put in a value in the input */
 loginButton.addEventListener("click", (e) => {
@@ -15,7 +15,7 @@ loginButton.addEventListener("click", (e) => {
         alert("Enter a username.");
     } else {
         parentContainer.style.display = 'block';
-        startContainer.style.display = 'none'
+        startContainer.style.display = 'none';
     }
 });
 
@@ -52,10 +52,10 @@ function gamePlay(item) {
     if (userChoose == 'rock') {
         if (compChoose == 's') {
             userscore.textContent = Number(userscore.textContent) + 1;
-            alert('You won!');
+            alert('You won! Rock beats scissors!');
         } else if (compChoose == 'p') {
             compscore.textContent = Number(compscore.textContent) + 1;
-            alert('You lost!');
+            alert('You lost! Paper beats rock!');
         } else {
             alert('Its a draw, throw again!');
         }
@@ -63,31 +63,32 @@ function gamePlay(item) {
     if (userChoose == 'paper') {
         if (compChoose == 's') {
             compscore.textContent = Number(compscore.textContent) + 1;
-            alert('You lost!');
+            alert('You lost! Scissors beats paper!');
         } else if (compChoose == 'p') {
             alert('Its a draw, throw again!');
         } else {
             userscore.textContent = Number(userscore.textContent) + 1;
-            alert('You won!');
+            alert('You won! Paper beats rock!');
         }
     }
     if (userChoose == 'scissors') {
         if (compChoose == 's') {
             alert('Its a draw, throw again!');
         } else if (compChoose == 'p') {
-            alert('You won!');
+            alert('You won! Scissors beats paper!');
             userscore.textContent = Number(userscore.textContent) + 1;
         } else {
             compscore.textContent = Number(compscore.textContent) + 1;
-            alert('You lost!');
+            alert('You lost! Rock beats scissors!');
         }
     }
     endGame();
 }
 
 function endGame() {
+    "use strict";
     if (userscore.innerText == 5) {
-        alert('Game Over! You were the first to 5!');
+        alert('Game Over! You won!');
         userscore.innerText = 0;
         compscore.innerText = 0;
     } else if (compscore.innerText == 5) {
@@ -107,5 +108,5 @@ resetBtn.addEventListener("click", () => {
 /* When you click this button an alert is prompted to display game rules */
 rulesBtn.addEventListener("click", () => {
     "use strict";
-    alert('The winner of the game is the first to 5 points! Game rules: Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes. Good luck!');
+    alert('The winner of the game is the first to 5 points! Game rules: Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie so nobody gets a point. Good luck!');
 });
